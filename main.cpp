@@ -95,7 +95,7 @@ void online_chatting::database_connect()	{
 		getch();
 		exit(0);
 	}	
-	if(!mysql_real_connect(obj, "remotemysql.com", "tsQ5pFi4dp", "2B2ixL1DL6", "tsQ5pFi4dp", 3306,NULL,0))	{
+	if(!mysql_real_connect(obj, "db4free.net", "shubhamamsa", "100miles", "online_chatting", 3306,NULL,0))	{
 		cout<<"It seems your network is down or database server is not working."<<mysql_error(obj);
 		cout<<"\n\nPress any key to exit...";
 		getch();
